@@ -1,0 +1,5 @@
+<h2> <%= @ingredient.name %> </h2>
+
+<%= link_to "Add new ingredient", new_ingredient_path %> <br>
+<%= link_to "Edit Ingredient", edit_ingredient_path %> <br>
+<%= link_to "Remove Ingredient", ingredient_path, method: :delete %>

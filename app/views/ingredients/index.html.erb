@@ -1,0 +1,9 @@
+<h1>List of all Ingredients:</h1>
+
+<ul>
+  <% @ingredients.each do |ing| %>
+  <li>
+    <%= link_to ing.name, ing %>
+  </li>
+  <% end %>
+</ul>
